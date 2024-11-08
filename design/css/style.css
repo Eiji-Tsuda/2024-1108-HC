@@ -1,0 +1,94 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    background: url("../img/header.png") center / cover no-repeat;
+    background-attachment: fixed;
+}
+
+#gnav {
+    width: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    overflow-x: hidden;
+}
+
+#gnav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#gnav .page {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gnav a {
+    display: block;
+}
+#gnav a:hover {
+    opacity: .8;
+}
+
+#gnav .logo img {
+    display: block;
+}
+
+#gnav .page a {
+    height: 100%;
+    line-height: 100px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 2em;
+}
+
+main {
+    min-height: 100vh;
+    background: #E3CF6B;
+    padding: 80px 0;
+}
+
+article {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+}
+
+
+
+main.huku {
+    display: flex;
+    width: 1000px;
+    height: 1200px;
+    padding: 269px 591px 916px 375px;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+#copyright {
+    color: #fff;
+    font-size: 12px;
+}
